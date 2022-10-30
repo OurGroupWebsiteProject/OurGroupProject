@@ -1,21 +1,166 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<title> FlyMe </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
 
-    <body>
-        
-        <h2>City 1: Toronto</h2>
-        <p>The price a one-way trip would be around 280$</p> 
-       
-        <h2>City 2: New York</h2>
-        <p>The price for a one-way trip would be around 86-94$</p> 
-        <p>The price for round trips would be around 300$</p>
-       
-        <h2>City 3: Los Angeles</h2>
-        <p>The price for a one-way trip would be around 260$</p>
-        <p>The price for round trips would be around 460$</p> 
-       
-        <h2>City 4: Montreal</h2>
-        <p>The price for a one-way trip would be around 180$</p>
-        <!-- This is just an example of what we will be writting, we will fix the formatting once we have all of our information -->
-    
-    </body>
+	<header>
+		
+		<a href="index.html"><div class="logodiv"> 
+
+			<img src="logo.png" height="75px" width="75px" float="left">
+			<p class="logotxt" >TrAgent</p>
+
+		</div> </a>
+
+		<nav>  
+			<div class="casenav" id="liennav1"> <i class="fas fa-plane-departure" style="color: white;" ></i> Flights </div>
+			<div class="casenav" id="liennav2"> <i class="fas fa-hotel" style="color: white" ></i> Hotels</div>
+			<div class="casenav" id="liennav3">  <a href="about.html">  About Us</a> </div>
+		</nav>
+
+	</header>
+
+
+	
+	<div class="plaisir" > The pleasure of traveling </div>
+
+
+	<main> 
+
+		<div id="carousel" > 
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+			    <a href="pres_paris.html"><img src="paris_paysage.jpg" style="width:100%;"></a>
+			    <div class="prixpromo"> <p class="prixbarré"> 1,200$/night</p>  <p class="prixcorrect"> 800$/night</p> </div>
+			    <div class="text"> Paris </div>
+			  </div>
+
+			  <div class="mySlides fade">
+			     <a href="pres_tokyo.html"><img src="tokyo_paysage.png" style="width:100%"></a>
+			    <div class="prixpromo"> <p class="prixbarré"> 1,000$/night</p>  <p class="prixcorrect"> 700$/night </p> </div>
+			    <div class="text">Tokyo</div>
+			  </div>
+
+			  <div class="mySlides fade">
+			    <a href="pres_LA.html"> <img src="losangeles_paysage.jpg" style="width:100%"></a>
+			    <div class="prixpromo"> <p class="prixbarré"> 1,800$/night</p>  <p class="prixcorrect"> 999$/night </p>  </div>
+			    <div class="text">Los Angeles</div>
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+		</div>
+
+		<div class="recherche" > 
+			<div class="recherche_texte">
+			<h2>What do you need ?</h2>
+			<h4> Search more precisely by specifying your selection criteria </h4></div>
+			<div class="rechercher" >   
+				<div class="rechercher1" > Where do you want to go ? </div>
+				<div class="rechercher2" > Arrival date - Departure date</div>
+				<div class="rechercher3" > 0 adults - 0 children - 0 bedroom</div>
+				<div class="rechercher4" > Research</div>
+			</div>
+
+		</div>
+
+
+		<div id="explomaroc" >
+			<div class="prespays" >  <h2> Explore Africa! </h2>  </div>
+			<div class="photopays" id="photo1" >    </div>
+			<div class="photopays" id="photo3" >    </div>
+			<div class="photopays" id="photo2" >    </div>
+			<div class="photopays" id="photo4">    </div>
+		</div>
+
+		<br> <br> <br>
+
+
+		<div id="explomaroc">
+			<div class="prespays" >  <h2>Explore the USA! </h2>  </div>
+			<div class="photopays" id="photo5" >    </div>
+			<div class="photopays" id="photo6" >    </div>
+			<div class="photopays" id="photo7" >    </div>
+			<div class="photopays" id="photo8">    </div>
+		</div>
+
+		
+
+
+		
+
+		<br> <br> <br>
+
+
+		<div id="explomaroc" >
+			<div class="prespays" >  <h2> Explore Asia! </h2>   </div>
+			<div class="photopays" id="photo9" >    </div>
+			<div class="photopays" id="photo10" >    </div>
+			<div class="photopays" id="photo11" >    </div>
+			<div class="photopays" id="photo12">    </div>
+		</div>
+
+		
+
+		
+
+
+
+	</main>
+
+
+
+	<footer>
+		<div class="casefooter" id="footer1" >  <p class="titrefooter" >   <i class="fas fa-phone-alt"></i>      Phone</p>
+
+
+		<div class="paragraphefooter"> <p > +1(579)-421-6373 </p> </div>
+		</div>
+
+		<div class="casefooter" id="footer2" >  <p class="titrefooter" >   <i class="fas fa-envelope-open-text"></i> Mail </p>
+		<div class="paragraphefooter"> <p> Press <a href="mailto:mlahm014@uOttawa.ca" class="lienmail">Here</a> To contact us by mail </p> </div>
+		</div>
+
+
+
+		<div class="casefooter" id="footer3" >  <p class="titrefooter" >   <i class="fas fa-compass"></i> Location</p>  
+		<div class="paragraphefooter"> <p > 90 University private, Ottawa </p> 
+		<iframe src="https://www.google.ca/maps/place/uOttawa/@45.4231101,-75.6853216,17z/data=!4m12!1m6!3m5!1s0x4cce050a6db98d73:0x188a59c3622fdbae!2sUniversity+of+Ottawa!8m2!3d45.4231064!4d-75.6831329!3m4!1s0x0:0x822f56e12a53717!8m2!3d45.4223983!4d-75.684454" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	<script src="flyme.js"></script>
+	<script src="https://kit.fontawesome.com/ad1331373a.js" crossorigin="anonymous"></script>
+
+</body>
 </html>
