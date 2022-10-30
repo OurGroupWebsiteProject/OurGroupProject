@@ -1,0 +1,161 @@
+body {margin: 0;}
+
+a {
+	color: white;
+	text-decoration: none
+}
+
+.headabout{
+	width: 100%;
+	height:50px;
+	background-color: white;
+	margin-left: -10px;
+	margin-right:-200px;
+	margin-bottom: 50px;
+	margin-top: 5%;
+	color:#5DBCF9;
+	font-size: 50px
+}
+
+.info{
+	width: 70%;
+	height:100%;
+	background-color: white;
+	margin-left:200px;
+	margin-right:200px;
+	margin-top: - 10px;
+	background-size: 100% 100%;
+	overflow: auto;
+	color: black;
+	font-size: 10px;
+
+}
+
+.nti{
+	font-size: 30px;
+	font-family: arial;
+	color: #5DBCF9;
+	margin-top: 100px;
+	margin-left: 100px;
+
+}
+
+.contenu{
+	font-size: 20px;
+	font-family: arial;
+
+}
+
+#titre1 {
+	margin-top: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.emarites {
+	width: 100%;
+	height:50px;
+	background-color: white;
+	margin-left: 40%;
+	margin-right:50%;
+	margin-top: 10%;
+}
+
+.logo_emi {
+	margin-left: 25%
+	margin
+
+}
+
+header {
+	height: 120px;
+	width: 100%;
+	background: #5DBCF9;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.logodiv {
+	height: 75px;
+	width: 200px;
+	position: absolute;
+	top: 22.5px;
+	left: 75px;
+}
+
+nav {
+	height: 75px;
+	width: 700px;
+	position: absolute;
+	top: 32.5px;
+	right: 30px;
+}
+
+
+.casenav {
+	height: 100%;
+	width: 33.33%;
+	float: left;
+	color: white;
+	font-family: maghrib;
+	font-size:30px;
+}
+
+
+
+.logotxt {
+	float: right;
+	font-size: 50px;
+	font-family: maghrib;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	color: white;
+}
+
+footer {
+	width: 100%;
+	height: 400px;
+	background-color: #5DBCF9;
+	padding: 10px;
+	margin: -10px;
+	overflow: auto;
+}
+
+
+.casefooter {
+	width: 25%;
+	height: 150px;
+	float: left;
+	margin-left: 85px;
+
+}
+
+.titrefooter {
+	font-size: 40px;
+	float: left;
+	color: white;
+	margin-top: 5px;
+	font-family: "Arial black";
+	width: 100%;
+}
+
+.paragraphefooter {
+	font-size: 20px;
+	font-family: "Arial black";
+	color: #CACACA;
+	float: left;
+	width: 100%;
+	margin-top: -30px;
+}
+
+
+.lienmail {
+	color: white;
+	text-decoration: underline;	}
+
+	@font-face {
+	font-family: maghrib;
+	src: url(maghrib-MVZpx.ttf);
+}
