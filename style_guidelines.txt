@@ -1,0 +1,34 @@
+Overall Look and Feel of TrAgent
+================================
+
+The overall look and feel should be minimalist and flat. We will avoid 3d buttons and 3d metal looks.
+The website should be calm and gentle for the user.
+
+Colours
+========
+For TrAgent, colours represent harmony and a way to attract people, the colors are eye-catching.
+These are our color swatches:
+
+- #B19CD7
+- #CACACA
+- #rgb(255,255,255)
+- #rgba(0,0,0,0.8)
+- #f2f2f2
+- #000000
+
+Iconography
+===========
+We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.
+
+
+Typography
+==========
+Roboto  is the font we are using.
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+Buttons will be flat designed using a colour matching with those around them .
