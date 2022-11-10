@@ -22,7 +22,7 @@ body {
 header {
 	height: 120px;
 	width: 100%;
-	background: #5DBCF9;
+	background: #B19CD7;
 	position: sticky;
 	top: 0;
 	z-index: 10;
@@ -49,7 +49,7 @@ nav {
 	height: 100%;
 	width: 33.33%;
 	float: left;
-	color: white;
+	color: rgba(21, 149, 181, 0.568);
 	font-family: maghrib;
 	font-size:30px;
 }
@@ -70,7 +70,7 @@ nav {
 .recherche {
 	width: 100%;
 	height: 200px;
-	background: #98BCD3;
+	background: #B19CD7;
 	margin-top: 20px;
 }
 
@@ -105,9 +105,9 @@ main {
 	height: 400px;
 	margin-left: 15%;
 	margin-top: 100px;
-	color: #5DBCF9;
+	color: #B19CD7;
 	font-family: "Arial black";	
-	border: 1px solid #5DBCF9;
+	border: 1px solid #B19CD7;
 	border-radius: 50px;
 	background: white;
 }
@@ -199,7 +199,7 @@ main {
 footer {
 	width: 100%;
 	height: 400px;
-	background-color: #5DBCF9;
+	background-color: #B19CD7;
 	padding: 10px;
 	margin: -10px;
 	overflow: auto;
@@ -305,7 +305,6 @@ footer {
   top: 0;
 }
 
-/* The dots/bullets/indicators 
 .dot {
   cursor: pointer;
   height: 15px;
@@ -319,7 +318,7 @@ footer {
 
 .active, .dot:hover {
   background-color: #717171;
-}  */
+}  
 
 /* Fading animation */
 .fade {
@@ -375,28 +374,28 @@ footer {
 
 
 a.button1{
- display:inline-block;
- padding:0.35em 1.2em;
- border:0.1em solid #FFFFFF;
- margin:0 0.3em 0.3em 0;
- border-radius:0.12em;
- box-sizing: border-box;
- text-decoration:none;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.2s;
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
 }
 a.button1:hover{
- color:#000000;
- background-color:#FFFFFF;
-}r
+	color:#000000;
+	background-color:#FFFFFF;
+}
 @media all and (max-width:30em){
- a.button1{
-  display:block;
-  margin:0.4em auto;
- }
+a.button1{
+	display:block;
+	margin:0.4em auto;
+}
 }
 
 .rechercher {
@@ -406,7 +405,7 @@ a.button1:hover{
 	height: 40px;
 	background: white;
 	text-align: center;
-	color: #DEDEDE;
+	color: black;
 	font-size: 18px;
 
 }
@@ -416,7 +415,8 @@ a.button1:hover{
 	height: 100%;
 	float: left;
 	border: 2px solid black;
-	vertical-align: middle
+	vertical-align: middle;
+	color: black;
 }
 
 .rechercher2 {
@@ -424,7 +424,8 @@ a.button1:hover{
 	height: 100%;
 	float: left;
 	border: 2px solid black;
-	vertical-align: middle
+	vertical-align: middle;
+	color: black;
 }
 .rechercher3 {
 	width : 30%;
@@ -432,6 +433,7 @@ a.button1:hover{
 	vertical-align: middle;
 	border: 2px solid black;
 	float: left;
+	color: black;
 }
 .rechercher4 {
 	width : 20%;
@@ -439,12 +441,12 @@ a.button1:hover{
 	vertical-align: middle;
 	height: 100%;
 	float: left;
-	background: #5DBCF9;
-	color: white;
+	background: whitesmoke;
+	color: black;
 }
 
 .titreform {
-	color: #5DBCF9;
+	color: #B19CD7;
 	font-size: 70px;
 	font-family: "maghrib";
 	margin: 0;
@@ -463,14 +465,14 @@ fieldset {
 .rerservationdroite {
 	height: 100%;
 	width: 25%;
-	color: #5DBCF9;
+	color: #B19CD7;
 	float: left;
 	font-size: 20px;
 }
 
 .reservationform {
 	height: 100%;
-	width: 25%;
+	width: 40%;
 	float: left;
 }
 input {
@@ -490,7 +492,7 @@ h2 {
 	height: 750px;
 	background-image: url(fond.jpg);*background-size: 100% 100%;
 	width: 100%;
-	color: #5DBCF9;
+	color: rgb(38, 81, 92);
 	font-family: maghrib;
 	font-size: 150px;
 	text-align: center;
@@ -507,3 +509,4 @@ h2 {
 	background-image: url(paiement.png);
 	background-size: 100% 100%
 }
+
