@@ -10,6 +10,7 @@ For TrAgent, colours represent harmony and a way to attract people, the colors a
 These are our color swatches:
 
 - #B19CD7
+- #5DBCF9
 - #CACACA
 - #rgb(255,255,255)
 - #rgba(0,0,0,0.8)
@@ -23,12 +24,12 @@ We will focus on using icons that have a 'flat' design, which adheres to the ove
 
 Typography
 ==========
-Roboto  is the font we are using.
+Maghrib font is used to create something different from the other travel websites that use a regular font.
 
 Links
 =====
-Links will not be underlined and should change color when a user hovers over it.
+The links are part of the images that scroll and represent the cities, when you press on an image it will guide you directly to the corresponding page.
 
 Buttons
 =======
-Buttons will be flat designed using a colour matching with those around them .
+The buttons appear in white to be visible with the blue color of the page and create harmony.
